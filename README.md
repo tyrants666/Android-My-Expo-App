@@ -15,8 +15,9 @@ To get started with this project, follow these steps:
 7. `git remote add origin new-repo-url`
 8. `git add -A`
 9. `git commit -m "init"`
-9. `git branch -M main`
-9. `git push -u origin main`
+10. `git branch -M main`
+11. `git push -u origin main`
+11. Update `README.me` file to remove steps from 5-12
 
 ## Available Scripts
 
