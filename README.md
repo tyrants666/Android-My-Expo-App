@@ -8,8 +8,20 @@ To get started with this project, follow these steps:
 
 1. Clone this repository to your local machine.
 2. Navigate to the project directory.
-3. Install dependencies using npm or yarn:
-4. Follow the instructions in the terminal to open the app on your device or simulator.
+3. Change "my-expo-app name" to your "new-project" name in `app.json` & `package.json` file
+4. Install dependencies using npm or yarn:
+
+## Available Scripts
+
+In the project directory, you can run the following commands:
+
+- `npx expo start`: Starts the Expo development server.
+- `npx expo start -c`: Starts the Expo development server clearing cache.
+- `npm start`: Starts the Expo development server.
+- `npm run android`: Builds and runs the app on an Android device or emulator.
+- `npm run ios`: Builds and runs the app on an iOS simulator.
+- `npm run web`: Starts the app in a web browser using Expo Web.
+- `npm test`: Launches the test runner in the interactive watch mode.
 
 ## Project Structure
 
@@ -19,17 +31,6 @@ To get started with this project, follow these steps:
 - `screens/`: Directory for individual screens or views of the app.
 - `navigation/`: Directory for navigation setup using React Navigation.
 - `styles/`: Directory for storing global styles or theme configurations.
-
-## Available Scripts
-
-In the project directory, you can run the following commands:
-
-- `npx expo start`: Starts the Expo development server.
-- `npm start`: Starts the Expo development server.
-- `npm run android`: Builds and runs the app on an Android device or emulator.
-- `npm run ios`: Builds and runs the app on an iOS simulator.
-- `npm run web`: Starts the app in a web browser using Expo Web.
-- `npm test`: Launches the test runner in the interactive watch mode.
 
 ## Learn More
 
