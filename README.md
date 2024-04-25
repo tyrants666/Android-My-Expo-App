@@ -10,6 +10,13 @@ To get started with this project, follow these steps:
 2. Navigate to the project directory.
 3. Change "my-expo-app name" to your "new-project" name in `app.json` & `package.json` file
 4. Install dependencies using npm or yarn:
+5. Remove .git folder
+6. `git init` 
+7. `git remote add origin new-repo-url`
+8. `git add -A`
+9. `git commit -m "init"`
+9. `git branch -M main`
+9. `git push -u origin main`
 
 ## Available Scripts
 
